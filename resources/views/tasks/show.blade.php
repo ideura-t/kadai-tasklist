@@ -30,6 +30,7 @@
         @csrf
         @method('DELETE')
         
+        
         <button type="submit" class="btn btn-error btn-outline" 
             onclick="return confirm('id = {{ $task->id }} のメッセージを削除します。よろしいですか？')">削除</button>
     </form>
